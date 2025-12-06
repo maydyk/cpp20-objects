@@ -1,3 +1,3 @@
 {
-    "cmake.sourceDirectory": "/home/denis/samples/cpp20-objects/examples/libraries/BigNumber"
+    "cmake.sourceDirectory": "${workspaceFolder}"
 }

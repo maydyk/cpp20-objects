@@ -1,2 +1,5 @@
 # Ignore build diectory
 build/
+
+# Skip compiled objects
+*.a
