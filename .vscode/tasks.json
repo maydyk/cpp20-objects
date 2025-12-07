@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: clang сборка активного файла",
-            "command": "/usr/bin/clang",
+            "command": "/usr/bin/clang++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -12,7 +12,9 @@
                 "${workspaceFolder}/build/${relativeFileDirname}/${fileBasenameNoExtension}",
                 "-std=c++20",
                 "-lstdc++",
-                "-lm"
+                "-lm",
+                "-ltbb",
+                "-pthread"
             ],
             "options": {
                 "cwd": "${fileDirname}"
